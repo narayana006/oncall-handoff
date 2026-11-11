@@ -1,0 +1,31 @@
+{
+  "incidents": [
+    {"id": "P1001", "title": "Replication lag above 30s on orders-db replica 2", "service": {"summary": "orders-db"},
+     "urgency": "high", "status": "acknowledged", "created_at": "2026-03-01T22:40:00Z",
+     "html_url": "https://pager.example.com/incidents/P1001"},
+    {"id": "P1002", "title": "checkout-api p99 latency above 800ms", "service": {"summary": "checkout-api"},
+     "urgency": "high", "status": "resolved", "created_at": "2026-03-02T10:12:00Z", "resolved_at": "2026-03-02T10:19:00Z",
+     "html_url": "https://pager.example.com/incidents/P1002"},
+    {"id": "P1003", "title": "Disk usage 91% on search-indexer-3", "service": {"summary": "search-indexer"},
+     "urgency": "low", "status": "resolved", "created_at": "2026-03-02T11:05:00Z", "resolved_at": "2026-03-02T12:35:00Z",
+     "html_url": "https://pager.example.com/incidents/P1003"},
+    {"id": "P1004", "title": "checkout-api p99 latency above 850ms", "service": {"summary": "checkout-api"},
+     "urgency": "high", "status": "resolved", "created_at": "2026-03-02T14:48:00Z", "resolved_at": "2026-03-02T14:53:00Z",
+     "html_url": "https://pager.example.com/incidents/P1004"},
+    {"id": "P1005", "title": "Payment webhook failures above 5%", "service": {"summary": "payments-gateway"},
+     "urgency": "high", "status": "resolved", "created_at": "2026-03-02T19:30:00Z", "resolved_at": "2026-03-02T21:10:00Z",
+     "html_url": "https://pager.example.com/incidents/P1005"},
+    {"id": "P1006", "title": "checkout-api p99 latency above 920ms", "service": {"summary": "checkout-api"},
+     "urgency": "high", "status": "resolved", "created_at": "2026-03-03T02:31:00Z", "resolved_at": "2026-03-03T02:39:00Z",
+     "html_url": "https://pager.example.com/incidents/P1006"},
+    {"id": "P1007", "title": "Certificate for api.example.com expires in 6 days", "service": {"summary": "edge-proxy"},
+     "urgency": "low", "status": "triggered", "created_at": "2026-03-03T06:00:00Z",
+     "html_url": "https://pager.example.com/incidents/P1007"},
+    {"id": "P1008", "title": "Queue depth above 10000 on email-worker", "service": {"summary": "email-worker"},
+     "urgency": "high", "status": "resolved", "created_at": "2026-03-03T07:20:00Z", "resolved_at": "2026-03-03T08:05:00Z",
+     "html_url": "https://pager.example.com/incidents/P1008"},
+    {"id": "P0990", "title": "Disk usage 88% on search-indexer-1", "service": {"summary": "search-indexer"},
+     "urgency": "low", "status": "resolved", "created_at": "2026-02-28T09:00:00Z", "resolved_at": "2026-02-28T09:40:00Z",
+     "html_url": "https://pager.example.com/incidents/P0990"}
+  ]
+}

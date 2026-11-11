@@ -1,0 +1,12 @@
+[
+  {"ts": "1772446500", "channel": "incidents", "user_name": "priya", "text": "checkout-api latency page again. Cleared on its own in a few minutes, same as this morning."},
+  {"ts": "1772480100", "channel": "incidents", "user_name": "priya", "text": "payments-gateway: webhook failures at 7%, looking now"},
+  {"ts": "1772480700", "channel": "incidents", "user_name": "tomas", "thread_ts": "1772480100", "text": "provider status page shows degraded webhooks in eu-west"},
+  {"ts": "1772482500", "channel": "incidents", "user_name": "priya", "thread_ts": "1772480100", "text": "Enabled the retry queue as a workaround. Failed webhooks from 19:30 to 20:10 still need to be replayed."},
+  {"ts": "1772485800", "channel": "incidents", "user_name": "lena", "thread_ts": "1772480100", "text": "provider says fixed, failure rate back to normal"},
+  {"ts": "1772486100", "channel": "incidents", "user_name": "priya", "thread_ts": "1772480100", "text": "Resolving. Follow-up: replay job is tracked in OPS-412."},
+  {"ts": "1772505600", "channel": "oncall", "user_name": "priya", "text": "Heads up for next shift: orders-db replica 2 is still lagging, the DBA team is rebuilding it. Do not fail over to it."},
+  {"ts": "1772525400", "channel": "incidents", "user_name": "priya", "text": "email-worker queue backed up after the 07:00 campaign send, scaled workers from 4 to 8"},
+  {"ts": "1772527800", "channel": "incidents", "user_name": "priya", "text": "Queue drained. Workers are still at 8, someone needs to scale them back down tomorrow."},
+  {"ts": "1772352000", "channel": "oncall", "user_name": "tomas", "text": "Old message from the previous shift: keep an eye on the cache nodes."}
+]
